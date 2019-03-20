@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+.outer-area {
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+.calci-container {
+   height: 400px;
+   width: 280px;
+   display: flex;
+   flex-direction: column;
+}
+
+.calci-display {
+    background-color: black;
+    color: white;
+    height: 15%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.calci-keypad {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    width: 100%;
+    background-color: black;
+}
+
+.calci-keypad-row {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.calci-keypad-button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #bbbcbe;
+    color: black;
+    font-weight: 500;
+    font-size: 1.2em;
+    border: 0.04em solid black;
+    height: 100%;
+    width: 100%;   
+}
+
+.calci-keypad-button:hover {
+    background-color: #ebebeb;
+    cursor: pointer;
+}
+
+.calci-keypad-last-button {
+    color: white;
+    background-color: orange;
+}
+
+.calci-keypad-last-button:hover {
+    color: white;
+    background-color: #dfb07e;
+}
+
+.calci-keypad-button-container-three-quater {
+    width: 75%;
+    height: 100%;
+}
+
+.calci-keypad-button-container-half {
+    width: 50%;
+    height: 100%;
+}
+
+.calci-keypad-button-container-quater {
+    width: 25%;
+    height: 100%;
+}
+
