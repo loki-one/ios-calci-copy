@@ -1,0 +1,22 @@
+{
+  "name": "ios-calc-copy",
+  "version": "1.0.0",
+  "description": "Simple ios look alike calculator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loki-one/ios-calci-copy.git"
+  },
+  "author": "loki-one",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loki-one/ios-calci-copy/issues"
+  },
+  "homepage": "https://github.com/loki-one/ios-calci-copy#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
